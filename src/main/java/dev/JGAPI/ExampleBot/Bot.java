@@ -1,6 +1,7 @@
 package dev.JGAPI.ExampleBot;
 
 import dev.JGAPI.ExampleBot.Config.ConfigManager;
+import dev.JGAPI.ExampleBot.Handlers.EventHandler;
 import dev.JGAPI.JG_API.JG_API;
 
 public class Bot {
@@ -11,6 +12,7 @@ public class Bot {
             jg_api = new JG_API.ClientBuilder()
                     .setParentServerId(ConfigManager.getInstance().getProperty("GUILDED_SERVER_ID"))
                     .setToken(ConfigManager.getInstance().getProperty("GUILDED_TOKEN"))
+                    .addListenerAdapter(new EventHandler())
                     .build();
 
             jg_api.login();
