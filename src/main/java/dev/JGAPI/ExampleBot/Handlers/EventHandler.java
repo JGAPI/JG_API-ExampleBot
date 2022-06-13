@@ -1,7 +1,7 @@
-package dev.JGAPI.ExampleBot.Handlers;
+package dev.jgapi.examplebot.handlers;
 
-import dev.JGAPI.JG_API.Events.Library.ReadyEvent;
-import dev.JGAPI.JG_API.ListenerAdapter;
+import dev.jgapi.jg_api.events.library.ReadyEvent;
+import dev.jgapi.jg_api.ListenerAdapter;
 
 public class EventHandler extends ListenerAdapter {
     @Override

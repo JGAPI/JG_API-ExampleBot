@@ -1,7 +1,7 @@
 /*
     Credit to Bo$$#9004 for this Manager.
  */
-package dev.JGAPI.ExampleBot.Config;
+package dev.jgapi.examplebot.config;
 
 import java.io.BufferedReader;
 import java.io.File;

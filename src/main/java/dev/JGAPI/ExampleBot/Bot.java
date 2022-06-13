@@ -1,8 +1,8 @@
-package dev.JGAPI.ExampleBot;
+package dev.jgapi.examplebot;
 
-import dev.JGAPI.ExampleBot.Config.ConfigManager;
-import dev.JGAPI.ExampleBot.Handlers.EventHandler;
-import dev.JGAPI.JG_API.JG_API;
+import dev.jgapi.examplebot.config.ConfigManager;
+import dev.jgapi.examplebot.handlers.EventHandler;
+import dev.jgapi.jg_api.JG_API;
 
 public class Bot {
     static JG_API jg_api;
